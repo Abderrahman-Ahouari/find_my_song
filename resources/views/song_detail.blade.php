@@ -23,39 +23,7 @@
     </style>
 </head>
 <body class="text-gray-100">
-    <header class="container mx-auto py-6 px-4">
-        <div class="flex justify-between items-center mb-8">
-            <a href="/" class="text-3xl font-bold logo-text">LyricFinder</a>
-            <a href="/" class="bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded transition-colors duration-300">
-                ← Back to Search
-            </a>
-        </div>
-    </header>
 
-    <main class="container mx-auto px-4 pb-12">
-        <!-- Loader -->
-        <div id="loader" class="flex justify-center mb-6">
-            <div class="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-cyan-500"></div>
-        </div>
-
-        <!-- Song Details Section -->
-        <div id="song-details" class="max-w-4xl mx-auto mb-8">
-            <!-- Song details will be populated here by JavaScript -->
-        </div>
-
-        <!-- Lyrics Container -->
-        <div id="lyrics-container" class="max-w-4xl mx-auto">
-            <!-- Lyrics will be populated here by JavaScript -->
-        </div>
-    </main>
-
-    <footer class="bg-gray-900 bg-opacity-50 py-6">
-        <div class="container mx-auto px-4 text-center text-gray-400">
-            <p>© 2025 LyricFinder. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="{{ asset('js/lyrics-app.js') }}"></script>
 
 </body>
 </html>
